@@ -33,23 +33,13 @@ namespace MyLib
 
     public class User
     {
-        public static int counter = 0 ;
+        public static int counter = 0;
 
-        private string Name = "";
-        private int Age = 0;
-        private SexEn Sex = SexEn.NaN;
-        public int Size { get; set; }
+        public string Name { get; set; } = "";
 
-
-        public string name
+        public int Age
         {
-            get { return this.Name; }
-            set { this.Name = value; }
-        }
-
-        public int age
-        {
-            get { return this.Age; }
+            get { return Age; }
             set
             {
                 if (value < 14)
@@ -58,16 +48,19 @@ namespace MyLib
                 }
                 else
                 {
-                    this.Age = value;
+                    Age = value;
                 }
             }
         }
 
-        public SexEn sex
+        public SexEn Sex
         {
             get { return this.Sex; }
             set { Console.WriteLine("You can`t change your sex! Remember it!"); }
         }
+
+        public int Size { get; set; } = 0;
+
 
         public User()
         {
@@ -76,10 +69,10 @@ namespace MyLib
 
         public User(string nm, int ag, SexEn sx, int sz)
         {
-            this.Name = nm;
-            this.Age = ag;
-            this.Sex = sx;
-            this.Size = sz;
+            Name = nm;
+            Age = ag;
+            Sex = sx;
+            Size = sz;
 
             counter++;
         }
@@ -98,9 +91,16 @@ namespace MyLib
 
     public class Client : User
     {
+        public string Position { get; set; }
+        public int? Salary { get; set; }
         public Client()
         {
             Console.WriteLine("Потомок класса User создан");
+        }
+
+        public new void GetInfo()
+        {
+            Console.WriteLine($"Name:{Name}\nAge: {Age}\nSex: {Sex}\nSize: {Size}\nPosition: {Position}\nSalary: {Salary}");
         }
     }
 }

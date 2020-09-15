@@ -20,7 +20,17 @@ namespace FirstApp
             object mvar = 6;
             Console.WriteLine($"mvar is {mvar??100}");
 
+
+            Console.WriteLine("------------------------------------------------------");
             Client cl = new Client();
+            cl.Name = "Rima";
+            cl.Age = 22;
+            cl.Sex = SexEn.Female;
+            cl.Size = 36;
+            cl.Position = "Manual pushing operator";
+            cl.Salary = 100;
+
+            cl.GetInfo();
 
             Console.ReadKey();
 

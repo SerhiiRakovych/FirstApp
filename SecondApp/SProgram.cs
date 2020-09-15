@@ -21,9 +21,9 @@ namespace SecondApp
             Lily.GetInfo();
             Jane.GetInfo();
 
-            BOB.name = "Марк";
-            BOB.age = 10;
-            BOB.sex = SexEn.NaN;
+            BOB.Name = "Марк";
+            BOB.Age = 10;
+            BOB.Sex = SexEn.NaN;
             BOB.Size = 38;
 
             BOB.GetInfo();
