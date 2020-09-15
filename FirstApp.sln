@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstApp", "FirstApp\FirstApp.csproj", "{E8C545C2-1DC0-4130-961A-7D7DD553A3B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyLib", "MyLib\MyLib.csproj", "{19F4FD51-A88A-4488-9470-A715FEF4A467}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondApp", "SecondApp\SecondApp.csproj", "{440BD984-714F-4199-9825-0CCF7EE61435}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8C545C2-1DC0-4130-961A-7D7DD553A3B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8C545C2-1DC0-4130-961A-7D7DD553A3B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8C545C2-1DC0-4130-961A-7D7DD553A3B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8C545C2-1DC0-4130-961A-7D7DD553A3B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F4FD51-A88A-4488-9470-A715FEF4A467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F4FD51-A88A-4488-9470-A715FEF4A467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F4FD51-A88A-4488-9470-A715FEF4A467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F4FD51-A88A-4488-9470-A715FEF4A467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{440BD984-714F-4199-9825-0CCF7EE61435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{440BD984-714F-4199-9825-0CCF7EE61435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{440BD984-714F-4199-9825-0CCF7EE61435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{440BD984-714F-4199-9825-0CCF7EE61435}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B896724B-511A-48B2-A7C0-567400792E0A}
+	EndGlobalSection
+EndGlobal
